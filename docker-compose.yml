@@ -1,9 +1,0 @@
-services:
-  indigo-bot:
-    build: .
-    restart: always
-    env_file: .env
-    environment:
-      DB_FILE: /data/bot_database.json
-    volumes:
-      - ./data:/data
